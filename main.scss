@@ -1,0 +1,35 @@
+.nav {
+    
+    background: linear-gradient(#800080, #000000);
+    padding: 37px;
+    
+
+
+    &__list {
+        margin: 0px;
+        padding: 25px;;
+        list-style: none;
+        box-sizing: border-box;
+        display: flex;
+        border-style: ridge;
+        border-radius: 15px;
+        justify-content: space-around;
+    }
+
+    &__item {
+        
+        width: 60px;
+        list-style: none;       
+    }
+
+    &__link {              
+        color: white;
+        list-style: none;
+        text-decoration: none;
+        
+        &:hover {
+            background-color:rgb(223, 126, 223);
+            transition: background 0.5;
+        }
+    }
+}
